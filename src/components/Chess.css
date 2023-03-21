@@ -1,0 +1,26 @@
+.Chess {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  outline: 2px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chess-item {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.red-chess {
+  border: .3px solid red;
+  background: radial-gradient(#fff, red);
+}
+
+.blue-chess {
+  border: .3px solid blue;
+  background: radial-gradient(#fff, blue);
+}
